@@ -347,7 +347,7 @@ main {
 }
 
 .footer__link {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--clr-fg);
 }
