@@ -6,6 +6,7 @@
     <meta name="description" content="Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -20,7 +21,7 @@
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://github.com/iweld" class="link" >JS</a
+        <a href="https://github.com/iweld" class="link" taget="_new">JS</a
         >
       </h3>
 
@@ -52,10 +53,12 @@
     </header>
 
     <main>
-      <!-- About -->
-      <div class="about center">
-        <h1><span class="about__name">Jaime M. Shaker</span></h1>
-        <h2 class="about__role">Data Analytics | Data Visualization</h2>
+    	<!-- About -->
+      	<div class="about center">
+        	<h1><span class="about__name">Jaime M. Shaker</span></h1>
+        	<h2 class="about__role">Data Analytics | Data Visualization</h2>
+		</br>
+			<h4><i aria-hidden="true" class="fa fa-line-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-bar-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-pie-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-area-chart"></i></h4>
         <p class="about__desc">
 			Pragmatic veteran with a strong interest in reporting and analytics. Versed in extracting, transforming, and reporting on data from databases and spreadsheets utilizing SQL and 
 			other technologies. Proficient in manipulating data to create custom reports, charts, and dashboards. 
@@ -67,19 +70,30 @@
           </a>
 
           <a
-            href="https://github.com/iweld"
-            aria-label="github"
-            class="link link--icon"
+		  		href="https://github.com/iweld"
+            	aria-label="github"
+            	class="link link--icon"
+				target="_new"
           >
-            <i aria-hidden="true" class="fab fa-github"></i>
+            <i aria-hidden="true" class="fab fa-github-square"></i>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jaime-shaker/"
-            aria-label="linkedin"
-            class="link link--icon"
+            	href="https://www.linkedin.com/in/jaime-shaker/"
+            	aria-label="linkedin"
+            	class="link link--icon"
+				target="_new"
           >
             <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+
+		  <a
+            	href="https://public.tableau.com/app/profile/jaime.shaker"
+            	aria-label="tableau"
+            	class="link link--icon"
+				target="_new"
+          >
+		  <iconify-icon icon="ion:logo-tableau"></iconify-icon>
           </a>
 
         </div>
@@ -119,9 +133,9 @@
 			  </div>
 
 			  <div class="project">
-				<h3>One Column of Words</h3>
+				<h3>Dictionary Challenge</h3>
 				<p class="project__description">
-					Dictionary Challenge: An SQL project using basic/intermediate SQL practices with one column of English words.
+					An SQL project using basic/intermediate SQL practices with one column of English words.
 				</p>
 				<ul class="project__stack">
 				  <li class="project__stack-item">SQL</li>
@@ -252,12 +266,11 @@
         <h2 class="section__title">Skills</h2>
         <ul class="skills__list">
 			<li class="skills__list-item btn btn--plain">SQL</li>
+			<li class="skills__list-item btn btn--plain">Tableau</li>
 			<li class="skills__list-item btn btn--plain">Excel</li>
           <li class="skills__list-item btn btn--plain">HTML</li>
           <li class="skills__list-item btn btn--plain">CSS</li>
           <li class="skills__list-item btn btn--plain">JavaScript</li>
-		  <li class="skills__list-item btn btn--plain">Tableau</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
         </ul>
       </section>
 
