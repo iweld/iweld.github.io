@@ -303,6 +303,7 @@ main {
 
 .project__description {
   margin-top: 1em;
+  align-content: left;
 }
 
 .project__stack {
