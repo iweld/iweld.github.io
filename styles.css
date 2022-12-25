@@ -65,7 +65,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -94,7 +94,14 @@ button {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
+  }
+
+  h2 {
+	font-size: 1.5rem;
+  }
+  h3 {
+	font-size: 1.2rem;
   }
 }
 
@@ -213,7 +220,7 @@ button {
 }
 
 .header {
-  height: 8em;
+  height: 4em;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
@@ -227,7 +234,7 @@ main {
 }
 
 .section {
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 .section__title {
@@ -253,6 +260,7 @@ main {
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
 }
 
 .about__name {
@@ -260,7 +268,7 @@ main {
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 1em;
 }
 
 .about__desc {
@@ -270,7 +278,8 @@ main {
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 1.4em;
+  text-align: center;
 }
 
 .about .link--icon {
@@ -369,7 +378,7 @@ main {
   }
 
   .section {
-    margin-top: 4em;
+    margin-top: 3em;
   }
 
   .nav__list {
@@ -399,7 +408,7 @@ main {
   }
 
   .about {
-    align-items: flex-start;
+    align-items:center;
     margin-top: 2em;
   }
 
