@@ -190,6 +190,7 @@ button {
   background-color: var(--clr-bg-alt);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
+  border-radius: 5%;
 }
 
 .btn--plain:hover {
@@ -278,8 +279,8 @@ main {
 
 .about__desc,
 .about__contact {
-  margin-top: 1.4em;
-  text-align: center;
+  margin-top: 1.2em;
+  text-align: left;
 }
 
 .about .link--icon {
@@ -304,6 +305,7 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 4%;
 }
 
 .project:hover {
@@ -312,7 +314,7 @@ main {
 
 .project__description {
   margin-top: 1em;
-  align-content: left;
+  text-align: left;
 }
 
 .project__stack {
@@ -357,7 +359,7 @@ main {
 }
 
 .footer__link {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-weight: 700;
   color: var(--clr-fg);
 }
